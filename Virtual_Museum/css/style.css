@@ -117,7 +117,6 @@ nav img{
     width: 70%;
     background-position: center;
     background-size: cover;
-    border-radius: 10px;
     text-align: center;
     padding: 5px 0px;
 }
@@ -158,7 +157,9 @@ nav img{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(226,0,0,0.7);
+    /*background: rgba(226,0,0,0.7); */  
+    background: #3586FF;
+    opacity: 70%;
 }
 .layer h5{
     width: 100%;
@@ -177,6 +178,22 @@ nav img{
     opacity: 1;
 }
 
+@media only screen and (max-width: 700px) {
+    .destinantion-content {
+      grid-template-columns: repeat(1, minmax(340px, auto));
+    }
+
+    .monument-selection-title h1{
+        font-size: 30px;
+    }
+
+    .col-content img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+}
+
 /*----- Map ----*/
 .map {
   display: block;
@@ -187,7 +204,7 @@ nav img{
     font-size: 45px;
     font-family: 'Paytone One', sans-serif;
     color: #fff;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .map-preview {
@@ -220,6 +237,42 @@ nav img{
   height: 650px;
   width: 100%;
 }  
+
+@media only screen and (max-width: 700px) {
+    .map {
+        display: block;
+        margin-bottom: 200px;
+      }
+    .map h2{
+        font-size: 30px;
+    }
+}
+
+/*----- To-top-Button ----*/
+.to-top{
+    background: #3586FF;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #1f1f1f;
+    opacity: 0;
+    text-decoration: none;
+    pointer-events: none;
+    transition: all .4s;
+}
+
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
 
 /*----Footer----*/
 footer{
@@ -268,7 +321,7 @@ footer .menu li a{
 }
 footer .menu li a:hover{
     opacity: 1;
-    transform: translateY(-3.5px);
+    transform: translateY(-6px);
 }
 footer p{
     color: #fff;

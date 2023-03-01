@@ -4,8 +4,6 @@ var map = L.map('Valletta').setView([35.8989, 14.5146], 15);
     minZoom: 13,
     attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
   }).addTo(map);
-  // show a markers on the map
-  L.marker([35.8989, 14.5146]).bindPopup('Valletta').addTo(map);
   // show the scale bar on the lower left corner
   L.control.scale({imperial: true, metric: true}).addTo(map);
 
