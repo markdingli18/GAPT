@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.body-background2{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/img/valletta6.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.sub-header{
+    height: 53vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/valletta5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sub-header h1{
+    font-size: 45px;
+    font-family: 'Paytone One', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.sub-header nav img{
+    width: 14%;
+    height: 14%;
+    padding-left: 3%;
+}
+@media(max-width: 700px){
+    .sub-header nav img{
+        width: 40%;
+        height: 40%;
+    }
+}
+.sub-header nav img:hover{
+    opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+
+/*----3D Models----*/

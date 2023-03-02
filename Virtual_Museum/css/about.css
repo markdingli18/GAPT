@@ -7,14 +7,14 @@
     scroll-behavior: smooth;
 }
 .body-background2{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(/img/valletta4.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/img/valletta4.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 .sub-header{
-    height: 50vh;
+    height: 53vh;
     width: 100%;
     background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/valletta3.jpg);
     background-position: center;
@@ -24,6 +24,56 @@
     font-size: 45px;
     font-family: 'Paytone One', sans-serif;
     color: #fff;
-    margin-top: 40px;
     text-align: center;
+}
+.sub-header nav img{
+    width: 14%;
+    height: 14%;
+    padding-left: 3%;
+}
+@media(max-width: 700px){
+    .sub-header nav img{
+        width: 40%;
+        height: 40%;
+    }
+}
+.sub-header nav img:hover{
+    opacity: 1;
+	-webkit-animation: flash 2.5s;
+	animation: flash 2.5s;
+}
+/*----Introduction Message----*/
+.intro-mess-background{
+    padding-bottom: 75px;
+}
+.intro-mess2{
+    margin: 100px auto;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.308);
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    text-align: center;
+    padding: 100px 0px;
+}
+.intro-mess2 h1{
+    font-size: 50px;
+    font-family: 'Paytone One', sans-serif;
+    color: #fff;
+}
+.intro-mess2 p{
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+    margin: 50px auto;
+    color: #fff;
+}
+
+@media(max-width: 700px){
+    .intro-mess2 h1{
+        font-size: 30px;
+    }
+    .intro-mess2 p{
+        font-size: 15px;
+    }
 }
