@@ -1,7 +1,7 @@
 var map = L.map('Valletta').setView([35.8989, 14.5146], 15);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 15,
-    minZoom: 13,
+    maxZoom: 18,
+    minZoom: 14,
     attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
   }).addTo(map);
   // show the scale bar on the lower left corner
