@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
@@ -63,9 +63,10 @@ nav img{
     font-size: 65px;
     line-height: 1;
     color: #fff;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     letter-spacing: 4px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 .home-text p{
     color: #fff;
@@ -83,6 +84,7 @@ nav img{
     color: #6e54fa;
     border-radius: 4px;
     transition: ease .40s;
+    text-transform: uppercase;
 }
 .home-btn:hover{
     background: #fff;
@@ -107,15 +109,17 @@ nav img{
     padding: 100px 0px;
 }
 .intro-mess h1{
-    font-size: 45px;
-    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
     color: #fff;
+    text-transform: uppercase;
 }
 .intro-mess p{
     width: 70%;
     text-align: center;
     margin: 50px auto;
     color: #fff;
+    font-size: 18px;
 }
 .intro-btn{
     display: inline-block;
@@ -125,6 +129,7 @@ nav img{
     color: #6e54fa;
     border-radius: 4px;
     transition: ease .40s;
+    text-transform: uppercase;
 }
 .intro-btn:hover{
     background: #fff;
@@ -146,10 +151,9 @@ nav img{
     text-align: center;
     padding: 5px 0px;
 }
-
 .monument-selection-title h1{
-    font-size: 45px;
-    font-family: 'Paytone One', sans-serif;
+    font-size: 55px;
+    font-family: 'Fjalla One', sans-serif;
     color: #fff;
     padding-bottom: 10px;
 }
@@ -192,13 +196,14 @@ nav img{
     width: 100%;
     font-weight: 500;
     color: #fff;
-    font-size: 26px;
+    font-size: 30px;
     bottom: 0;
     left: 50%;
     transform: translate(-50%);
     position: absolute;
     opacity: 0;
     transition: 0.5s;
+    font-family: 'Bebas Neue', sans-serif;
 }
 .layer:hover h5{
     bottom: 49%;
@@ -228,10 +233,11 @@ nav img{
 }
 
 .map h2{
-    font-size: 45px;
-    font-family: 'Paytone One', sans-serif;
+    font-size: 55px;
+    font-family: 'Fjalla One', sans-serif;
     color: #fff;
     padding-bottom: 50px;
+    text-transform: uppercase;
 }
 
 .map-preview {
@@ -332,14 +338,15 @@ footer .social-icon li a:hover{
     transform: translateY(-8px);
 }
 footer .menu li a{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
     text-decoration: none;
     opacity: 0.75;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
 }
 footer .menu li a:hover{
     opacity: 1;
@@ -352,6 +359,7 @@ footer p{
     margin-top: 15px;
     opacity: 0.75;
     margin-top: 10px;
+    font-family: 'Fjalla One', sans-serif;
 }
 .left-image, .right-image {
     position: absolute;

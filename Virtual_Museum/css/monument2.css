@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
@@ -20,12 +20,13 @@
     background-size: cover;
 }
 .sub-header-model-2 h1{
-    font-size: 45px;
-    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
     color: #fff;
     text-align: center;
     position: relative; 
-    top: -50px;
+    top: -40px;
+    text-transform: uppercase;
 }
 .sub-header-model-2 nav img{
     width: 14%;
@@ -42,4 +43,8 @@
     opacity: 1;
 	-webkit-animation: flash 2.5s;
 	animation: flash 2.5s;
+}
+.intro-mess-background-2 h1{
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: uppercase;
 }

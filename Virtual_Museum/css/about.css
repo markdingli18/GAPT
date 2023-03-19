@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
@@ -21,12 +21,13 @@
     background-size: cover;
 }
 .sub-header h1{
-    font-size: 50px;
-    font-family: 'Paytone One', sans-serif;
+    font-size: 55px;
+    font-family: 'Fjalla One', sans-serif;
     color: #fff;
     text-align: center;
     position: relative; 
-    top: -20px;
+    top: -42px;
+    text-transform: uppercase;
 }
 .sub-header nav img{
     width: 14%;
@@ -59,13 +60,14 @@
     padding: 100px 0px;
 }
 .intro-mess2 h1{
-    font-size: 50px;
-    font-family: 'Paytone One', sans-serif;
+    font-size: 55px;
+    font-family: 'Fjalla One', sans-serif;
     color: #fff;
+    text-transform: uppercase;
 }
 .intro-mess2 p{
     width: 70%;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin: 50px auto;
     color: #fff;
